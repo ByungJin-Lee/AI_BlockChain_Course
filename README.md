@@ -1,1 +1,1 @@
-# AI_BlockChain_Course
+# AI BlockChain Course
