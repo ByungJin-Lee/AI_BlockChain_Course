@@ -1,0 +1,3772 @@
+{
+    "data": {
+      "community": {
+        "id": "702754423",
+        "displayName": "아이네_",
+        "channel": {
+          "id": "702754423",
+          "self": {
+            "communityPoints": {
+              "availableClaim": null,
+              "__typename": "CommunityPointsProperties",
+              "balance": 16240,
+              "activeMultipliers": [],
+              "canRedeemRewardsForFree": false,
+              "lastViewedContent": [
+                {
+                  "contentType": "AUTOMATIC_REWARD",
+                  "lastViewedAt": "2022-04-07T17:37:05.543438923Z",
+                  "__typename": "CommunityPointsLastViewedContentByType"
+                },
+                {
+                  "contentType": "CUSTOM_REWARD",
+                  "lastViewedAt": "2022-04-07T17:37:05.543438923Z",
+                  "__typename": "CommunityPointsLastViewedContentByType"
+                }
+              ],
+              "userRedemptions": []
+            },
+            "__typename": "ChannelSelfEdge"
+          },
+          "__typename": "Channel",
+          "communityPointsSettings": {
+            "name": "둘기의 깃털",
+            "image": {
+              "url": "https://static-cdn.jtvnw.net/channel-points-icons/702754423/4b142150-19cb-4cf0-98e9-3b04402a71f3/icon-1.png",
+              "url2x": "https://static-cdn.jtvnw.net/channel-points-icons/702754423/4b142150-19cb-4cf0-98e9-3b04402a71f3/icon-2.png",
+              "url4x": "https://static-cdn.jtvnw.net/channel-points-icons/702754423/4b142150-19cb-4cf0-98e9-3b04402a71f3/icon-4.png",
+              "__typename": "CommunityPointsImage"
+            },
+            "__typename": "CommunityPointsChannelSettings",
+            "automaticRewards": [
+              {
+                "id": "702754423:CHOSEN_MODIFIED_SUB_EMOTE_UNLOCK",
+                "backgroundColor": null,
+                "cost": null,
+                "defaultBackgroundColor": "#00FA05",
+                "defaultCost": 900,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/automatic-reward-images/modify-emote-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/automatic-reward-images/modify-emote-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/automatic-reward-images/modify-emote-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "isEnabled": true,
+                "isHiddenForSubs": false,
+                "minimumCost": 80,
+                "type": "CHOSEN_MODIFIED_SUB_EMOTE_UNLOCK",
+                "updatedForIndicatorAt": null,
+                "globallyUpdatedForIndicatorAt": "2020-12-14T21:00:00Z",
+                "__typename": "CommunityPointsAutomaticReward"
+              },
+              {
+                "id": "702754423:SINGLE_MESSAGE_BYPASS_SUB_MODE",
+                "backgroundColor": null,
+                "cost": null,
+                "defaultBackgroundColor": "#9146FF",
+                "defaultCost": 350,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/automatic-reward-images/subsonly-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/automatic-reward-images/subsonly-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/automatic-reward-images/subsonly-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "isEnabled": true,
+                "isHiddenForSubs": true,
+                "minimumCost": 80,
+                "type": "SINGLE_MESSAGE_BYPASS_SUB_MODE",
+                "updatedForIndicatorAt": null,
+                "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                "__typename": "CommunityPointsAutomaticReward"
+              },
+              {
+                "id": "702754423:SEND_HIGHLIGHTED_MESSAGE",
+                "backgroundColor": null,
+                "cost": null,
+                "defaultBackgroundColor": "#FF6905",
+                "defaultCost": 100,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/automatic-reward-images/highlight-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/automatic-reward-images/highlight-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/automatic-reward-images/highlight-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "isEnabled": true,
+                "isHiddenForSubs": false,
+                "minimumCost": 10,
+                "type": "SEND_HIGHLIGHTED_MESSAGE",
+                "updatedForIndicatorAt": null,
+                "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                "__typename": "CommunityPointsAutomaticReward"
+              },
+              {
+                "id": "702754423:RANDOM_SUB_EMOTE_UNLOCK",
+                "backgroundColor": null,
+                "cost": null,
+                "defaultBackgroundColor": "#8205B4",
+                "defaultCost": 320,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "isEnabled": true,
+                "isHiddenForSubs": true,
+                "minimumCost": 80,
+                "type": "RANDOM_SUB_EMOTE_UNLOCK",
+                "updatedForIndicatorAt": null,
+                "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                "__typename": "CommunityPointsAutomaticReward"
+              },
+              {
+                "id": "702754423:CHOSEN_SUB_EMOTE_UNLOCK",
+                "backgroundColor": null,
+                "cost": null,
+                "defaultBackgroundColor": "#00C8AF",
+                "defaultCost": 480,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/automatic-reward-images/choose-emote-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/automatic-reward-images/choose-emote-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/automatic-reward-images/choose-emote-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "isEnabled": true,
+                "isHiddenForSubs": true,
+                "minimumCost": 80,
+                "type": "CHOSEN_SUB_EMOTE_UNLOCK",
+                "updatedForIndicatorAt": null,
+                "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                "__typename": "CommunityPointsAutomaticReward"
+              }
+            ],
+            "customRewards": [
+              {
+                "id": "240a6e49-4a18-47bc-9188-56e4d6fbe75c",
+                "backgroundColor": "#A150FF",
+                "cooldownExpiresAt": null,
+                "cost": 10000,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "maxPerStreamSetting": {
+                  "isEnabled": false,
+                  "maxPerStream": 0,
+                  "__typename": "CommunityPointsCustomRewardMaxPerStreamSetting"
+                },
+                "maxPerUserPerStreamSetting": {
+                  "isEnabled": false,
+                  "maxPerUserPerStream": 0,
+                  "__typename": "CommunityPointsCustomRewardMaxPerUserPerStreamSetting"
+                },
+                "globalCooldownSetting": {
+                  "isEnabled": false,
+                  "globalCooldownSeconds": 0,
+                  "__typename": "CommunityPointsCustomRewardGlobalCooldownSetting"
+                },
+                "isEnabled": true,
+                "isInStock": true,
+                "isPaused": false,
+                "isSubOnly": false,
+                "isUserInputRequired": false,
+                "shouldRedemptionsSkipRequestQueue": false,
+                "redemptionsRedeemedCurrentStream": null,
+                "prompt": "깃털저금통 :: 당신의 소중한 깃털을 이곳에 보관하세요~!",
+                "title": "깃털보관소 1만",
+                "updatedForIndicatorAt": "2022-04-05T13:56:00.540931372Z",
+                "__typename": "CommunityPointsCustomReward"
+              },
+              {
+                "id": "c0594539-4402-4343-895d-5a01f85790d8",
+                "backgroundColor": "#D1B3FF",
+                "cooldownExpiresAt": null,
+                "cost": 100000,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "maxPerStreamSetting": {
+                  "isEnabled": false,
+                  "maxPerStream": 0,
+                  "__typename": "CommunityPointsCustomRewardMaxPerStreamSetting"
+                },
+                "maxPerUserPerStreamSetting": {
+                  "isEnabled": false,
+                  "maxPerUserPerStream": 0,
+                  "__typename": "CommunityPointsCustomRewardMaxPerUserPerStreamSetting"
+                },
+                "globalCooldownSetting": {
+                  "isEnabled": false,
+                  "globalCooldownSeconds": 0,
+                  "__typename": "CommunityPointsCustomRewardGlobalCooldownSetting"
+                },
+                "isEnabled": true,
+                "isInStock": true,
+                "isPaused": false,
+                "isSubOnly": false,
+                "isUserInputRequired": false,
+                "shouldRedemptionsSkipRequestQueue": false,
+                "redemptionsRedeemedCurrentStream": null,
+                "prompt": "깃털저금통 :: 당신의 소중한 깃털을 이곳에 보관하세요~!",
+                "title": "깃털보관소 10만",
+                "updatedForIndicatorAt": "2022-04-06T16:29:11.745117593Z",
+                "__typename": "CommunityPointsCustomReward"
+              },
+              {
+                "id": "e1426506-ca77-4be9-94e4-182fffb12a38",
+                "backgroundColor": "#7B00E4",
+                "cooldownExpiresAt": null,
+                "cost": 500000,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "maxPerStreamSetting": {
+                  "isEnabled": false,
+                  "maxPerStream": 0,
+                  "__typename": "CommunityPointsCustomRewardMaxPerStreamSetting"
+                },
+                "maxPerUserPerStreamSetting": {
+                  "isEnabled": false,
+                  "maxPerUserPerStream": 0,
+                  "__typename": "CommunityPointsCustomRewardMaxPerUserPerStreamSetting"
+                },
+                "globalCooldownSetting": {
+                  "isEnabled": false,
+                  "globalCooldownSeconds": 0,
+                  "__typename": "CommunityPointsCustomRewardGlobalCooldownSetting"
+                },
+                "isEnabled": true,
+                "isInStock": true,
+                "isPaused": false,
+                "isSubOnly": false,
+                "isUserInputRequired": false,
+                "shouldRedemptionsSkipRequestQueue": false,
+                "redemptionsRedeemedCurrentStream": null,
+                "prompt": "깃털저금통 :: 당신의 소중한 깃털을 이곳에 보관하세요~!",
+                "title": "깃털보관소 50만",
+                "updatedForIndicatorAt": "2022-04-06T16:30:10.390647411Z",
+                "__typename": "CommunityPointsCustomReward"
+              },
+              {
+                "id": "f39b7d3e-e33d-4451-b6c3-8f587e60cef1",
+                "backgroundColor": "#E69900",
+                "cooldownExpiresAt": null,
+                "cost": 100000,
+                "defaultImage": {
+                  "url": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                  "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                  "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png",
+                  "__typename": "CommunityPointsImage"
+                },
+                "image": null,
+                "maxPerStreamSetting": {
+                  "isEnabled": false,
+                  "maxPerStream": 0,
+                  "__typename": "CommunityPointsCustomRewardMaxPerStreamSetting"
+                },
+                "maxPerUserPerStreamSetting": {
+                  "isEnabled": false,
+                  "maxPerUserPerStream": 0,
+                  "__typename": "CommunityPointsCustomRewardMaxPerUserPerStreamSetting"
+                },
+                "globalCooldownSetting": {
+                  "isEnabled": false,
+                  "globalCooldownSeconds": 0,
+                  "__typename": "CommunityPointsCustomRewardGlobalCooldownSetting"
+                },
+                "isEnabled": true,
+                "isInStock": true,
+                "isPaused": true,
+                "isSubOnly": false,
+                "isUserInputRequired": true,
+                "shouldRedemptionsSkipRequestQueue": false,
+                "redemptionsRedeemedCurrentStream": null,
+                "prompt": null,
+                "title": "시참권 (본인어필 적으세요)",
+                "updatedForIndicatorAt": "2022-04-05T15:02:35.329765985Z",
+                "__typename": "CommunityPointsCustomReward"
+              }
+            ],
+            "goals": [],
+            "isEnabled": true,
+            "raidPointAmount": 250,
+            "emoteVariants": [
+              {
+                "id": "emotesv2_70a4f95857a24194a77093529a66a880",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_70a4f95857a24194a77093529a66a880",
+                  "token": "voine700",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_70a4f95857a24194a77093529a66a880_BW",
+                    "emote": {
+                      "id": "emotesv2_70a4f95857a24194a77093529a66a880_BW",
+                      "token": "voine700_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_70a4f95857a24194a77093529a66a880_HF",
+                    "emote": {
+                      "id": "emotesv2_70a4f95857a24194a77093529a66a880_HF",
+                      "token": "voine700_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_70a4f95857a24194a77093529a66a880_SG",
+                    "emote": {
+                      "id": "emotesv2_70a4f95857a24194a77093529a66a880_SG",
+                      "token": "voine700_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_70a4f95857a24194a77093529a66a880_SQ",
+                    "emote": {
+                      "id": "emotesv2_70a4f95857a24194a77093529a66a880_SQ",
+                      "token": "voine700_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_70a4f95857a24194a77093529a66a880_TK",
+                    "emote": {
+                      "id": "emotesv2_70a4f95857a24194a77093529a66a880_TK",
+                      "token": "voine700_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e",
+                  "token": "voine999",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_BW",
+                    "emote": {
+                      "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_BW",
+                      "token": "voine999_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_HF",
+                    "emote": {
+                      "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_HF",
+                      "token": "voine999_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_SG",
+                    "emote": {
+                      "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_SG",
+                      "token": "voine999_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_SQ",
+                    "emote": {
+                      "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_SQ",
+                      "token": "voine999_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_TK",
+                    "emote": {
+                      "id": "emotesv2_89bdc294d9c540f2bea7aa1449f4b86e_TK",
+                      "token": "voine999_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c",
+                  "token": "voine999popcorn",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_BW",
+                    "emote": {
+                      "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_BW",
+                      "token": "voine999popcorn_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_HF",
+                    "emote": {
+                      "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_HF",
+                      "token": "voine999popcorn_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_SG",
+                    "emote": {
+                      "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_SG",
+                      "token": "voine999popcorn_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_SQ",
+                    "emote": {
+                      "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_SQ",
+                      "token": "voine999popcorn_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_TK",
+                    "emote": {
+                      "id": "emotesv2_ded5f66c537a4faeb0b5e878c4c54f7c_TK",
+                      "token": "voine999popcorn_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece",
+                  "token": "voine99popcorn",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_BW",
+                    "emote": {
+                      "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_BW",
+                      "token": "voine99popcorn_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_HF",
+                    "emote": {
+                      "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_HF",
+                      "token": "voine99popcorn_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_SG",
+                    "emote": {
+                      "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_SG",
+                      "token": "voine99popcorn_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_SQ",
+                    "emote": {
+                      "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_SQ",
+                      "token": "voine99popcorn_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_TK",
+                    "emote": {
+                      "id": "emotesv2_b3f113e00e5a4c3985be46d6248a4ece_TK",
+                      "token": "voine99popcorn_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f",
+                  "token": "voineAine",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_BW",
+                    "emote": {
+                      "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_BW",
+                      "token": "voineAine_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_HF",
+                    "emote": {
+                      "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_HF",
+                      "token": "voineAine_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_SG",
+                    "emote": {
+                      "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_SG",
+                      "token": "voineAine_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_SQ",
+                    "emote": {
+                      "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_SQ",
+                      "token": "voineAine_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_TK",
+                    "emote": {
+                      "id": "emotesv2_2ac49eb96a4a41578e0b27f37f19a37f_TK",
+                      "token": "voineAine_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_e53d44df26234c23ba755466803fae7d",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_e53d44df26234c23ba755466803fae7d",
+                  "token": "voineBINGUNE",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_e53d44df26234c23ba755466803fae7d_BW",
+                    "emote": {
+                      "id": "emotesv2_e53d44df26234c23ba755466803fae7d_BW",
+                      "token": "voineBINGUNE_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e53d44df26234c23ba755466803fae7d_HF",
+                    "emote": {
+                      "id": "emotesv2_e53d44df26234c23ba755466803fae7d_HF",
+                      "token": "voineBINGUNE_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e53d44df26234c23ba755466803fae7d_SG",
+                    "emote": {
+                      "id": "emotesv2_e53d44df26234c23ba755466803fae7d_SG",
+                      "token": "voineBINGUNE_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e53d44df26234c23ba755466803fae7d_SQ",
+                    "emote": {
+                      "id": "emotesv2_e53d44df26234c23ba755466803fae7d_SQ",
+                      "token": "voineBINGUNE_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e53d44df26234c23ba755466803fae7d_TK",
+                    "emote": {
+                      "id": "emotesv2_e53d44df26234c23ba755466803fae7d_TK",
+                      "token": "voineBINGUNE_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd",
+                  "token": "voineBigSukju",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_BW",
+                    "emote": {
+                      "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_BW",
+                      "token": "voineBigSukju_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_HF",
+                    "emote": {
+                      "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_HF",
+                      "token": "voineBigSukju_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_SG",
+                    "emote": {
+                      "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_SG",
+                      "token": "voineBigSukju_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_SQ",
+                    "emote": {
+                      "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_SQ",
+                      "token": "voineBigSukju_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_TK",
+                    "emote": {
+                      "id": "emotesv2_5399c40eae5841768adc16bdeb391ecd_TK",
+                      "token": "voineBigSukju_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62",
+                  "token": "voineBye",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_BW",
+                    "emote": {
+                      "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_BW",
+                      "token": "voineBye_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_HF",
+                    "emote": {
+                      "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_HF",
+                      "token": "voineBye_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_SG",
+                    "emote": {
+                      "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_SG",
+                      "token": "voineBye_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_SQ",
+                    "emote": {
+                      "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_SQ",
+                      "token": "voineBye_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_TK",
+                    "emote": {
+                      "id": "emotesv2_ef4c74a2de6b45f5904465889ecabe62_TK",
+                      "token": "voineBye_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_1b4de642612246cfb674a6f0900614c4",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_1b4de642612246cfb674a6f0900614c4",
+                  "token": "voineBye2",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_BW",
+                    "emote": {
+                      "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_BW",
+                      "token": "voineBye2_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_HF",
+                    "emote": {
+                      "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_HF",
+                      "token": "voineBye2_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_SG",
+                    "emote": {
+                      "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_SG",
+                      "token": "voineBye2_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_SQ",
+                    "emote": {
+                      "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_SQ",
+                      "token": "voineBye2_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_TK",
+                    "emote": {
+                      "id": "emotesv2_1b4de642612246cfb674a6f0900614c4_TK",
+                      "token": "voineBye2_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_2a8843801b1449569db7497fe57aacff",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_2a8843801b1449569db7497fe57aacff",
+                  "token": "voineDesuk",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_2a8843801b1449569db7497fe57aacff_BW",
+                    "emote": {
+                      "id": "emotesv2_2a8843801b1449569db7497fe57aacff_BW",
+                      "token": "voineDesuk_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2a8843801b1449569db7497fe57aacff_HF",
+                    "emote": {
+                      "id": "emotesv2_2a8843801b1449569db7497fe57aacff_HF",
+                      "token": "voineDesuk_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2a8843801b1449569db7497fe57aacff_SG",
+                    "emote": {
+                      "id": "emotesv2_2a8843801b1449569db7497fe57aacff_SG",
+                      "token": "voineDesuk_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2a8843801b1449569db7497fe57aacff_SQ",
+                    "emote": {
+                      "id": "emotesv2_2a8843801b1449569db7497fe57aacff_SQ",
+                      "token": "voineDesuk_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2a8843801b1449569db7497fe57aacff_TK",
+                    "emote": {
+                      "id": "emotesv2_2a8843801b1449569db7497fe57aacff_TK",
+                      "token": "voineDesuk_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d",
+                  "token": "voineDotdotdot",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_BW",
+                    "emote": {
+                      "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_BW",
+                      "token": "voineDotdotdot_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_HF",
+                    "emote": {
+                      "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_HF",
+                      "token": "voineDotdotdot_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_SG",
+                    "emote": {
+                      "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_SG",
+                      "token": "voineDotdotdot_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_SQ",
+                    "emote": {
+                      "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_SQ",
+                      "token": "voineDotdotdot_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_TK",
+                    "emote": {
+                      "id": "emotesv2_4135610d40414a4aab89bb4c59bacd4d_TK",
+                      "token": "voineDotdotdot_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f",
+                  "token": "voineGGang",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_BW",
+                    "emote": {
+                      "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_BW",
+                      "token": "voineGGang_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_HF",
+                    "emote": {
+                      "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_HF",
+                      "token": "voineGGang_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_SG",
+                    "emote": {
+                      "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_SG",
+                      "token": "voineGGang_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_SQ",
+                    "emote": {
+                      "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_SQ",
+                      "token": "voineGGang_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_TK",
+                    "emote": {
+                      "id": "emotesv2_f4801064983f4ff7a29994a16fd79b6f_TK",
+                      "token": "voineGGang_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_6f716288a702420883501d7157453584",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_6f716288a702420883501d7157453584",
+                  "token": "voineGone",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_6f716288a702420883501d7157453584_BW",
+                    "emote": {
+                      "id": "emotesv2_6f716288a702420883501d7157453584_BW",
+                      "token": "voineGone_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_6f716288a702420883501d7157453584_HF",
+                    "emote": {
+                      "id": "emotesv2_6f716288a702420883501d7157453584_HF",
+                      "token": "voineGone_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_6f716288a702420883501d7157453584_SG",
+                    "emote": {
+                      "id": "emotesv2_6f716288a702420883501d7157453584_SG",
+                      "token": "voineGone_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_6f716288a702420883501d7157453584_SQ",
+                    "emote": {
+                      "id": "emotesv2_6f716288a702420883501d7157453584_SQ",
+                      "token": "voineGone_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_6f716288a702420883501d7157453584_TK",
+                    "emote": {
+                      "id": "emotesv2_6f716288a702420883501d7157453584_TK",
+                      "token": "voineGone_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0",
+                  "token": "voineHINE",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_BW",
+                    "emote": {
+                      "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_BW",
+                      "token": "voineHINE_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_HF",
+                    "emote": {
+                      "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_HF",
+                      "token": "voineHINE_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_SG",
+                    "emote": {
+                      "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_SG",
+                      "token": "voineHINE_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_SQ",
+                    "emote": {
+                      "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_SQ",
+                      "token": "voineHINE_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_TK",
+                    "emote": {
+                      "id": "emotesv2_c567395be13e447a9af71a0993e4f4e0_TK",
+                      "token": "voineHINE_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85",
+                  "token": "voineHamine",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_BW",
+                    "emote": {
+                      "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_BW",
+                      "token": "voineHamine_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_HF",
+                    "emote": {
+                      "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_HF",
+                      "token": "voineHamine_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_SG",
+                    "emote": {
+                      "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_SG",
+                      "token": "voineHamine_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_SQ",
+                    "emote": {
+                      "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_SQ",
+                      "token": "voineHamine_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_TK",
+                    "emote": {
+                      "id": "emotesv2_2ca90c68f6fb41f2a22409684059fd85_TK",
+                      "token": "voineHamine_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b",
+                  "token": "voineHamine2",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_BW",
+                    "emote": {
+                      "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_BW",
+                      "token": "voineHamine2_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_HF",
+                    "emote": {
+                      "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_HF",
+                      "token": "voineHamine2_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_SG",
+                    "emote": {
+                      "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_SG",
+                      "token": "voineHamine2_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_SQ",
+                    "emote": {
+                      "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_SQ",
+                      "token": "voineHamine2_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_TK",
+                    "emote": {
+                      "id": "emotesv2_5103a4e06daf4a40a63f9c23ccc2e08b_TK",
+                      "token": "voineHamine2_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e",
+                  "token": "voineHeart",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_BW",
+                    "emote": {
+                      "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_BW",
+                      "token": "voineHeart_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_HF",
+                    "emote": {
+                      "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_HF",
+                      "token": "voineHeart_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_SG",
+                    "emote": {
+                      "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_SG",
+                      "token": "voineHeart_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_SQ",
+                    "emote": {
+                      "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_SQ",
+                      "token": "voineHeart_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_TK",
+                    "emote": {
+                      "id": "emotesv2_4033ca5bf14f406494bcb58acc714b7e_TK",
+                      "token": "voineHeart_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b",
+                  "token": "voineHifiveleft",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_BW",
+                    "emote": {
+                      "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_BW",
+                      "token": "voineHifiveleft_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_HF",
+                    "emote": {
+                      "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_HF",
+                      "token": "voineHifiveleft_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_SG",
+                    "emote": {
+                      "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_SG",
+                      "token": "voineHifiveleft_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_SQ",
+                    "emote": {
+                      "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_SQ",
+                      "token": "voineHifiveleft_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_TK",
+                    "emote": {
+                      "id": "emotesv2_87b7a5b9f5b24783b9d29044bf14033b_TK",
+                      "token": "voineHifiveleft_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c",
+                  "token": "voineHifiveright",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_BW",
+                    "emote": {
+                      "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_BW",
+                      "token": "voineHifiveright_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_HF",
+                    "emote": {
+                      "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_HF",
+                      "token": "voineHifiveright_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_SG",
+                    "emote": {
+                      "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_SG",
+                      "token": "voineHifiveright_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_SQ",
+                    "emote": {
+                      "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_SQ",
+                      "token": "voineHifiveright_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_TK",
+                    "emote": {
+                      "id": "emotesv2_c0b147bf9ab546ae949f2a60109e4f8c_TK",
+                      "token": "voineHifiveright_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc",
+                  "token": "voineHing",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_BW",
+                    "emote": {
+                      "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_BW",
+                      "token": "voineHing_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_HF",
+                    "emote": {
+                      "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_HF",
+                      "token": "voineHing_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_SG",
+                    "emote": {
+                      "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_SG",
+                      "token": "voineHing_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_SQ",
+                    "emote": {
+                      "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_SQ",
+                      "token": "voineHing_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_TK",
+                    "emote": {
+                      "id": "emotesv2_cc9dac957c3548a8a4c1a3d437c655cc_TK",
+                      "token": "voineHing_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d",
+                  "token": "voineHongSam",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_BW",
+                    "emote": {
+                      "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_BW",
+                      "token": "voineHongSam_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_HF",
+                    "emote": {
+                      "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_HF",
+                      "token": "voineHongSam_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_SG",
+                    "emote": {
+                      "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_SG",
+                      "token": "voineHongSam_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_SQ",
+                    "emote": {
+                      "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_SQ",
+                      "token": "voineHongSam_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_TK",
+                    "emote": {
+                      "id": "emotesv2_149a75304ca84fcc81811a3f65f6ec1d_TK",
+                      "token": "voineHongSam_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5",
+                  "token": "voineInepopcorn",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_BW",
+                    "emote": {
+                      "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_BW",
+                      "token": "voineInepopcorn_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_HF",
+                    "emote": {
+                      "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_HF",
+                      "token": "voineInepopcorn_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_SG",
+                    "emote": {
+                      "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_SG",
+                      "token": "voineInepopcorn_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_SQ",
+                    "emote": {
+                      "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_SQ",
+                      "token": "voineInepopcorn_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_TK",
+                    "emote": {
+                      "id": "emotesv2_898bf8e67d6e47cfaf6651465a9eb7e5_TK",
+                      "token": "voineInepopcorn_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59",
+                "isUnlockable": false,
+                "emote": {
+                  "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59",
+                  "token": "voineIsshegone",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_BW",
+                    "emote": {
+                      "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_BW",
+                      "token": "voineIsshegone_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_HF",
+                    "emote": {
+                      "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_HF",
+                      "token": "voineIsshegone_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_SG",
+                    "emote": {
+                      "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_SG",
+                      "token": "voineIsshegone_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_SQ",
+                    "emote": {
+                      "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_SQ",
+                      "token": "voineIsshegone_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_TK",
+                    "emote": {
+                      "id": "emotesv2_3f7f650de4a940bebbea692c0d708f59_TK",
+                      "token": "voineIsshegone_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593",
+                  "token": "voineKillereyes1",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_BW",
+                    "emote": {
+                      "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_BW",
+                      "token": "voineKillereyes1_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_HF",
+                    "emote": {
+                      "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_HF",
+                      "token": "voineKillereyes1_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_SG",
+                    "emote": {
+                      "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_SG",
+                      "token": "voineKillereyes1_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_SQ",
+                    "emote": {
+                      "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_SQ",
+                      "token": "voineKillereyes1_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_TK",
+                    "emote": {
+                      "id": "emotesv2_e2ebd9e4afaf4b48af8e0723c287a593_TK",
+                      "token": "voineKillereyes1_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b",
+                  "token": "voineKillereyes2",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_BW",
+                    "emote": {
+                      "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_BW",
+                      "token": "voineKillereyes2_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_HF",
+                    "emote": {
+                      "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_HF",
+                      "token": "voineKillereyes2_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_SG",
+                    "emote": {
+                      "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_SG",
+                      "token": "voineKillereyes2_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_SQ",
+                    "emote": {
+                      "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_SQ",
+                      "token": "voineKillereyes2_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_TK",
+                    "emote": {
+                      "id": "emotesv2_9fabb17ae73547c5a60f81dac195568b_TK",
+                      "token": "voineKillereyes2_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4",
+                  "token": "voineKillereyes3",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_BW",
+                    "emote": {
+                      "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_BW",
+                      "token": "voineKillereyes3_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_HF",
+                    "emote": {
+                      "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_HF",
+                      "token": "voineKillereyes3_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_SG",
+                    "emote": {
+                      "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_SG",
+                      "token": "voineKillereyes3_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_SQ",
+                    "emote": {
+                      "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_SQ",
+                      "token": "voineKillereyes3_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_TK",
+                    "emote": {
+                      "id": "emotesv2_4ec2f571eb7c4a7bbc776ffff0201ce4_TK",
+                      "token": "voineKillereyes3_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_348d076543724764a92d85a3cd16a454",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_348d076543724764a92d85a3cd16a454",
+                  "token": "voineLoseagain",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_348d076543724764a92d85a3cd16a454_BW",
+                    "emote": {
+                      "id": "emotesv2_348d076543724764a92d85a3cd16a454_BW",
+                      "token": "voineLoseagain_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_348d076543724764a92d85a3cd16a454_HF",
+                    "emote": {
+                      "id": "emotesv2_348d076543724764a92d85a3cd16a454_HF",
+                      "token": "voineLoseagain_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_348d076543724764a92d85a3cd16a454_SG",
+                    "emote": {
+                      "id": "emotesv2_348d076543724764a92d85a3cd16a454_SG",
+                      "token": "voineLoseagain_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_348d076543724764a92d85a3cd16a454_SQ",
+                    "emote": {
+                      "id": "emotesv2_348d076543724764a92d85a3cd16a454_SQ",
+                      "token": "voineLoseagain_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_348d076543724764a92d85a3cd16a454_TK",
+                    "emote": {
+                      "id": "emotesv2_348d076543724764a92d85a3cd16a454_TK",
+                      "token": "voineLoseagain_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf",
+                  "token": "voineMaine",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_BW",
+                    "emote": {
+                      "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_BW",
+                      "token": "voineMaine_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_HF",
+                    "emote": {
+                      "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_HF",
+                      "token": "voineMaine_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_SG",
+                    "emote": {
+                      "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_SG",
+                      "token": "voineMaine_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_SQ",
+                    "emote": {
+                      "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_SQ",
+                      "token": "voineMaine_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_TK",
+                    "emote": {
+                      "id": "emotesv2_17ed13aedf32463fa880ea4370289fdf_TK",
+                      "token": "voineMaine_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694",
+                  "token": "voineMeoribaka",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_BW",
+                    "emote": {
+                      "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_BW",
+                      "token": "voineMeoribaka_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_HF",
+                    "emote": {
+                      "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_HF",
+                      "token": "voineMeoribaka_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_SG",
+                    "emote": {
+                      "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_SG",
+                      "token": "voineMeoribaka_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_SQ",
+                    "emote": {
+                      "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_SQ",
+                      "token": "voineMeoribaka_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_TK",
+                    "emote": {
+                      "id": "emotesv2_9a80afd5d6c24bf68626721f51ca6694_TK",
+                      "token": "voineMeoribaka_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac",
+                  "token": "voineMiwung",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_BW",
+                    "emote": {
+                      "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_BW",
+                      "token": "voineMiwung_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_HF",
+                    "emote": {
+                      "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_HF",
+                      "token": "voineMiwung_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_SG",
+                    "emote": {
+                      "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_SG",
+                      "token": "voineMiwung_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_SQ",
+                    "emote": {
+                      "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_SQ",
+                      "token": "voineMiwung_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_TK",
+                    "emote": {
+                      "id": "emotesv2_e971a5090a2d4f9eb60a1225f7932cac_TK",
+                      "token": "voineMiwung_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb",
+                  "token": "voineMolRu",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_BW",
+                    "emote": {
+                      "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_BW",
+                      "token": "voineMolRu_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_HF",
+                    "emote": {
+                      "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_HF",
+                      "token": "voineMolRu_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_SG",
+                    "emote": {
+                      "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_SG",
+                      "token": "voineMolRu_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_SQ",
+                    "emote": {
+                      "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_SQ",
+                      "token": "voineMolRu_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_TK",
+                    "emote": {
+                      "id": "emotesv2_a5a3bf4166914d8382cb6f273e3f70fb_TK",
+                      "token": "voineMolRu_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9",
+                "isUnlockable": false,
+                "emote": {
+                  "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9",
+                  "token": "voineNEUGEUNE",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_BW",
+                    "emote": {
+                      "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_BW",
+                      "token": "voineNEUGEUNE_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_HF",
+                    "emote": {
+                      "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_HF",
+                      "token": "voineNEUGEUNE_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_SG",
+                    "emote": {
+                      "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_SG",
+                      "token": "voineNEUGEUNE_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_SQ",
+                    "emote": {
+                      "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_SQ",
+                      "token": "voineNEUGEUNE_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_TK",
+                    "emote": {
+                      "id": "emotesv2_c400336a3d2f44fca4d0e514d72d96c9_TK",
+                      "token": "voineNEUGEUNE_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3",
+                  "token": "voineObangal",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_BW",
+                    "emote": {
+                      "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_BW",
+                      "token": "voineObangal_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_HF",
+                    "emote": {
+                      "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_HF",
+                      "token": "voineObangal_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_SG",
+                    "emote": {
+                      "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_SG",
+                      "token": "voineObangal_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_SQ",
+                    "emote": {
+                      "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_SQ",
+                      "token": "voineObangal_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_TK",
+                    "emote": {
+                      "id": "emotesv2_ee7d6bb8eaab49058add09d658e181f3_TK",
+                      "token": "voineObangal_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6",
+                  "token": "voineOing",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_BW",
+                    "emote": {
+                      "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_BW",
+                      "token": "voineOing_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_HF",
+                    "emote": {
+                      "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_HF",
+                      "token": "voineOing_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_SG",
+                    "emote": {
+                      "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_SG",
+                      "token": "voineOing_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_SQ",
+                    "emote": {
+                      "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_SQ",
+                      "token": "voineOing_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_TK",
+                    "emote": {
+                      "id": "emotesv2_65e169dfe4164db18bde85a2e00917f6_TK",
+                      "token": "voineOing_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5",
+                "isUnlockable": false,
+                "emote": {
+                  "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5",
+                  "token": "voineOpensesame",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_BW",
+                    "emote": {
+                      "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_BW",
+                      "token": "voineOpensesame_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_HF",
+                    "emote": {
+                      "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_HF",
+                      "token": "voineOpensesame_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_SG",
+                    "emote": {
+                      "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_SG",
+                      "token": "voineOpensesame_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_SQ",
+                    "emote": {
+                      "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_SQ",
+                      "token": "voineOpensesame_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_TK",
+                    "emote": {
+                      "id": "emotesv2_13f62ef19b204f42ab22f2b1d5ff6fb5_TK",
+                      "token": "voineOpensesame_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_9979fa195d344026a139fb4565da99a3",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_9979fa195d344026a139fb4565da99a3",
+                  "token": "voineQuestionmark",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_9979fa195d344026a139fb4565da99a3_BW",
+                    "emote": {
+                      "id": "emotesv2_9979fa195d344026a139fb4565da99a3_BW",
+                      "token": "voineQuestionmark_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9979fa195d344026a139fb4565da99a3_HF",
+                    "emote": {
+                      "id": "emotesv2_9979fa195d344026a139fb4565da99a3_HF",
+                      "token": "voineQuestionmark_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9979fa195d344026a139fb4565da99a3_SG",
+                    "emote": {
+                      "id": "emotesv2_9979fa195d344026a139fb4565da99a3_SG",
+                      "token": "voineQuestionmark_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9979fa195d344026a139fb4565da99a3_SQ",
+                    "emote": {
+                      "id": "emotesv2_9979fa195d344026a139fb4565da99a3_SQ",
+                      "token": "voineQuestionmark_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_9979fa195d344026a139fb4565da99a3_TK",
+                    "emote": {
+                      "id": "emotesv2_9979fa195d344026a139fb4565da99a3_TK",
+                      "token": "voineQuestionmark_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5",
+                  "token": "voineQuestionmark2",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_BW",
+                    "emote": {
+                      "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_BW",
+                      "token": "voineQuestionmark2_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_HF",
+                    "emote": {
+                      "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_HF",
+                      "token": "voineQuestionmark2_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_SG",
+                    "emote": {
+                      "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_SG",
+                      "token": "voineQuestionmark2_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_SQ",
+                    "emote": {
+                      "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_SQ",
+                      "token": "voineQuestionmark2_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_TK",
+                    "emote": {
+                      "id": "emotesv2_8579520bd99b4b04b814d4607356b8b5_TK",
+                      "token": "voineQuestionmark2_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e",
+                  "token": "voineStare",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_BW",
+                    "emote": {
+                      "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_BW",
+                      "token": "voineStare_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_HF",
+                    "emote": {
+                      "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_HF",
+                      "token": "voineStare_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_SG",
+                    "emote": {
+                      "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_SG",
+                      "token": "voineStare_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_SQ",
+                    "emote": {
+                      "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_SQ",
+                      "token": "voineStare_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_TK",
+                    "emote": {
+                      "id": "emotesv2_0cd1dadd797644468a9fcec848a3679e_TK",
+                      "token": "voineStare_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c",
+                  "token": "voineUu",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_BW",
+                    "emote": {
+                      "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_BW",
+                      "token": "voineUu_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_HF",
+                    "emote": {
+                      "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_HF",
+                      "token": "voineUu_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_SG",
+                    "emote": {
+                      "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_SG",
+                      "token": "voineUu_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_SQ",
+                    "emote": {
+                      "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_SQ",
+                      "token": "voineUu_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_TK",
+                    "emote": {
+                      "id": "emotesv2_6b7d823f44c648f1b16a450f6b11d39c_TK",
+                      "token": "voineUu_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae",
+                  "token": "voineYEAH",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_BW",
+                    "emote": {
+                      "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_BW",
+                      "token": "voineYEAH_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_HF",
+                    "emote": {
+                      "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_HF",
+                      "token": "voineYEAH_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_SG",
+                    "emote": {
+                      "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_SG",
+                      "token": "voineYEAH_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_SQ",
+                    "emote": {
+                      "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_SQ",
+                      "token": "voineYEAH_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_TK",
+                    "emote": {
+                      "id": "emotesv2_221645e7a17a4ff38f4bd1dc4b6a5fae_TK",
+                      "token": "voineYEAH_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              },
+              {
+                "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c",
+                "isUnlockable": true,
+                "emote": {
+                  "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c",
+                  "token": "voineZzz",
+                  "__typename": "CommunityPointsEmote"
+                },
+                "modifications": [
+                  {
+                    "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_BW",
+                    "emote": {
+                      "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_BW",
+                      "token": "voineZzz_BW",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_BW",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_HF",
+                    "emote": {
+                      "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_HF",
+                      "token": "voineZzz_HF",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_HF",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_SG",
+                    "emote": {
+                      "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_SG",
+                      "token": "voineZzz_SG",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SG",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-09-03T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_SQ",
+                    "emote": {
+                      "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_SQ",
+                      "token": "voineZzz_SQ",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_SQ",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  },
+                  {
+                    "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_TK",
+                    "emote": {
+                      "id": "emotesv2_8d8789774a7c4c21bfaf7972a80c650c_TK",
+                      "token": "voineZzz_TK",
+                      "__typename": "CommunityPointsEmote"
+                    },
+                    "modifier": {
+                      "id": "MOD_TK",
+                      "__typename": "CommunityPointsEmoteModifier"
+                    },
+                    "globallyUpdatedForIndicatorAt": "2019-10-17T21:00:00Z",
+                    "__typename": "CommunityPointsEmoteModification"
+                  }
+                ],
+                "__typename": "CommunityPointsEmoteVariant"
+              }
+            ],
+            "earning": {
+              "id": "Y29wb0NoYW5uZWxFYXJuaW5nU2V0dGluZ3M6NzAyNzU0NDIz",
+              "averagePointsPerHour": 220,
+              "cheerPoints": 350,
+              "claimPoints": 50,
+              "followPoints": 300,
+              "passiveWatchPoints": 10,
+              "raidPoints": 250,
+              "subscriptionGiftPoints": 500,
+              "watchStreakPoints": [
+                {
+                  "points": 300,
+                  "__typename": "CommunityPointsWatchStreakEarningSettings"
+                },
+                {
+                  "points": 350,
+                  "__typename": "CommunityPointsWatchStreakEarningSettings"
+                },
+                {
+                  "points": 400,
+                  "__typename": "CommunityPointsWatchStreakEarningSettings"
+                },
+                {
+                  "points": 450,
+                  "__typename": "CommunityPointsWatchStreakEarningSettings"
+                }
+              ],
+              "multipliers": [
+                {
+                  "reasonCode": "SUB_T1",
+                  "factor": 0.2,
+                  "__typename": "CommunityPointsMultiplier"
+                },
+                {
+                  "reasonCode": "SUB_T2",
+                  "factor": 0.4,
+                  "__typename": "CommunityPointsMultiplier"
+                },
+                {
+                  "reasonCode": "SUB_T3",
+                  "factor": 1,
+                  "__typename": "CommunityPointsMultiplier"
+                }
+              ],
+              "__typename": "CommunityPointsChannelEarningSettings"
+            }
+          }
+        },
+        "__typename": "User",
+        "self": {
+          "isModerator": false,
+          "__typename": "UserSelfConnection"
+        }
+      },
+      "currentUser": {
+        "id": "508525030",
+        "communityPoints": {
+          "lastViewedContent": [
+            {
+              "contentID": "SINGLE_MESSAGE_BYPASS_SUB_MODE",
+              "contentType": "AUTOMATIC_REWARD",
+              "lastViewedAt": "2022-04-07T17:37:05.543438923Z",
+              "__typename": "CommunityPointsLastViewedContentByTypeAndID"
+            },
+            {
+              "contentID": "SEND_HIGHLIGHTED_MESSAGE",
+              "contentType": "AUTOMATIC_REWARD",
+              "lastViewedAt": "2022-04-07T17:37:05.543438923Z",
+              "__typename": "CommunityPointsLastViewedContentByTypeAndID"
+            },
+            {
+              "contentID": "RANDOM_SUB_EMOTE_UNLOCK",
+              "contentType": "AUTOMATIC_REWARD",
+              "lastViewedAt": "2022-04-07T17:37:05.543438923Z",
+              "__typename": "CommunityPointsLastViewedContentByTypeAndID"
+            },
+            {
+              "contentID": "CHOSEN_SUB_EMOTE_UNLOCK",
+              "contentType": "AUTOMATIC_REWARD",
+              "lastViewedAt": "2022-04-07T17:37:05.543438923Z",
+              "__typename": "CommunityPointsLastViewedContentByTypeAndID"
+            },
+            {
+              "contentID": "CHOSEN_MODIFIED_SUB_EMOTE_UNLOCK",
+              "contentType": "AUTOMATIC_REWARD",
+              "lastViewedAt": "2022-04-07T17:37:05.543438923Z",
+              "__typename": "CommunityPointsLastViewedContentByTypeAndID"
+            }
+          ],
+          "__typename": "CommunityPointsUserProperties"
+        },
+        "__typename": "User"
+      }
+    },
+    "extensions": {
+      "durationMilliseconds": 75,
+      "operationName": "ChannelPointsContext",
+      "requestID": "01G02J0H38HKNM5BA4879FE2FX"
+    }
+  },
